@@ -3,7 +3,7 @@ project(vrpn_vendor)
 
 find_package(ament_cmake REQUIRED)
 
-# added for foxy
+# added for foxy/humble
 macro(ament_add_default_options)
   # TODO(methylDragon): Would be good to parse args to skip options next time.
   set(aado_options EXCLUDE_BUILD_SHARED_LIBS)
